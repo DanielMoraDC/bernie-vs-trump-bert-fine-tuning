@@ -8,9 +8,9 @@ We have used pre-trained BERT models from [HuggingFace](https://huggingface.co/t
 
 ## Setting environment up
 
-Make sure conda >= 4.8.3 and Python >= 3.7 are installed in your system. Then, run:
+Make sure virtualenv >= 20.8.30 and Python >= 3.7 are installed in your system. Then, run:
 
 ```python
-conda env create -f environment.yml
-conda activate bert
+virtualenv bert && source bert/bin/activate
+pip install -r requirements.text
 ```
